@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/yashika-pal/program8'
+                git branch: 'main', url: 'https://github.com/yashika-pal/program8.git'
             }
         }
 
